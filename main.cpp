@@ -4,8 +4,13 @@
 using namespace std;
 
 int main() {
-    // Compute the sum of given numbers
-    int a, b;
-    cin >> a >> b;
-    cout << a+b << endl;
+    char t;
+    cin >> t;
+
+    if (t == '+') {
+        // Compute the sum of given numbers
+        int a, b;
+        cin >> a >> b;
+        cout << a+b << endl;
+    }
 }
