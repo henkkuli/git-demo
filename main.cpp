@@ -36,15 +36,15 @@ void do_divide() {
 }
 
 int main() {
-    string t = read_string();
+    string type = read_string();
 
-    if (t == "+" || "add") {
+    if (type == "+" || "add") {
         do_add();
-    } else if (t == "-" || t == "substract") {
+    } else if (type == "-" || type == "substract") {
         do_substract();
-    } else if (t == "*" || t == "multiply") {
+    } else if (type == "*" || type == "multiply") {
         do_multiply();
-    } else if (t == "/" || t == "divide") {
+    } else if (type == "/" || type == "divide") {
         do_divide();
     }
 }
