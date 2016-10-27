@@ -8,6 +8,11 @@ int read_int() {
     cin >> value;
     return value;
 }
+string read_string() {
+    string value;
+    cin >> value;
+    return value;
+}
 
 void do_add() {
     int a = read_int();
@@ -31,8 +36,7 @@ void do_divide() {
 }
 
 int main() {
-    string t;
-    cin >> t;
+    string t = read_string();
 
     if (t == "+" || "add") {
         do_add();
