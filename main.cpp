@@ -3,24 +3,30 @@
 
 using namespace std;
 
+int read_int() {
+    int value;
+    cin >> value;
+    return value;
+}
+
 void do_add() {
-    int a, b;
-    cin >> a >> b;
+    int a = read_int();
+    int b = read_int();
     cout << a+b << endl;
 }
 void do_substract() {
-    int a , b;
-    cin >> a >> b;
+    int a = read_int();
+    int b = read_int();
     cout << a-b << endl;
 }
 void do_multiply() {
-    int a, b;
-    cin >> a >> b;
+    int a = read_int();
+    int b = read_int();
     cout << a*b << endl;
 }
 void do_divide() {
-    int a, b;
-    cin >> a >> b;
+    int a = read_int();
+    int b = read_int();
     cout << a/b << endl;
 }
 
