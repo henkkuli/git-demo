@@ -16,5 +16,9 @@ int main() {
         int a , b;
         cin >> a >> b;
         cout << a-b << endl;
+    } else if (t == '*') {
+        int a, b;
+        cin >> a >> b;
+        cout << a*b << endl;
     }
 }
