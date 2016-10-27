@@ -40,11 +40,11 @@ int main() {
 
     if (t == "+" || "add") {
         do_add();
-    } else if (t == "-" || t == "substract") {
+    } else if (t == "-" || t == "sub" || t == "substract") {
         do_substract();
-    } else if (t == "*" || t == "multiply") {
+    } else if (t == "*" || t == "mul" || t == "multiply") {
         do_multiply();
-    } else if (t == "/" || t == "divide") {
+    } else if (t == "/" || t == "div" || t == "divide") {
         do_divide();
     }
 }
