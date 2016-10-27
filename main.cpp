@@ -4,23 +4,23 @@
 using namespace std;
 
 int main() {
-    char t;
+    string t;
     cin >> t;
 
-    if (t == '+') {
+    if (t == "+" || "add") {
         // Compute the sum of given numbers
         int a, b;
         cin >> a >> b;
         cout << a+b << endl;
-    } else if (t == '-') {
+    } else if (t == "-" || t == "substract") {
         int a , b;
         cin >> a >> b;
         cout << a-b << endl;
-    } else if (t == '*') {
+    } else if (t == "*" || t == "multiply") {
         int a, b;
         cin >> a >> b;
         cout << a*b << endl;
-    } else if (t == '/') {
+    } else if (t == "/" || t == "divide") {
         int a, b;
         cin >> a >> b;
         cout << a/b << endl;
